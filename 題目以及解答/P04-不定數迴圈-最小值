@@ -1,0 +1,10 @@
+n = int(input("請輸入正整數："))
+n_min = 0
+
+while n != 9999:
+  if n < n_min:
+    n_min = n
+  else:
+    n_min = n_min
+  n = int(input("請輸入正整數："))
+print("最小值為：",n_min)
