@@ -1,7 +1,0 @@
-def compute(x,y):
-  return x * y
-
-x = int(input("請輸入正整數："))
-y = int(input("請輸入正整數："))
-
-print(compute(x,y))
