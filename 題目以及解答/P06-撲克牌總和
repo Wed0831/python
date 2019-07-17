@@ -1,0 +1,26 @@
+有錯，尚未解決
+
+def poker(x):
+  if x == "A" or x == "a":
+    return 1
+  elif x == "J" or x == "j":
+    return 11
+  elif x == "Q" or x == "q":
+    return 12
+  elif x == "K" or x == "k":
+    return 13
+  else:
+    return x
+
+tot = 0
+
+for i in range(0,5):
+  i += 1
+  x = eval(input("請輸入撲克牌號碼："))
+
+tot += poker(x)
+
+print("tot = ",tot)
+
+
+
